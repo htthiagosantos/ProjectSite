@@ -1,0 +1,114 @@
+html{
+    font-family: Helvetica;
+    background-color: #000;
+    background-image: linear-gradient(to left, rgb(88, 88, 135), rgb(0, 0, 0), rgb(60, 60, 56));
+    background-size: 500% 100%;
+    animation: degrade-animado 10s infinite alternate;
+}
+@keyframes degrade-animado {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+.bold{
+    font-weight: bold;
+}
+/* Header */
+.header{
+    text-align: center;
+}
+
+.main-title{
+font-size: 40px;
+background: linear-gradient(to left, #8c3737, #613838);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.main-paragraph{
+    font-style: italic;
+}
+
+/* Imagem destaque */
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+img{
+    width: 900px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Biografia */
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.biography-container h2{
+background: linear-gradient(to left, #353b3f, #ec6ead);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+/* Quotes */
+.quotes-container{
+    background-color:#ddd;
+    padding: 30px;  
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+/* Curiosidades */
+.curiosidades-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosidades-container h2{
+background: linear-gradient(to left, #353b3f, #ec6ead);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.curiosidades-container li{
+    height: 30px;
+}
+
+/* Imagem bold */
+.img-bold{
+    text-align: center;
+}
+
+.moreinfor-container h2{
+ background: linear-gradient(to left, #353b3f, #ec6ead);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
